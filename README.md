@@ -1,17 +1,5 @@
 This is my fork of the project modified for modern linux and python.
 
-# PVE VDI Client
-
-This project's focus is to create a simple VDI client intended for mass deployment. This VDI client connects directly to Proxmox VE and allows users to connect (via Spice) to any VMs they have permission to access.
-
-Defining multiple Proxmox clusters is possible and can allow end users to easily select which 'server group' they wish to connect to:
-
-![Login Screen](screenshots/login.png)
-
-![Login Screen with OTP](screenshots/login-totp.png)
-
-![VDI View](screenshots/vdiview.png)
-
 ## Configuration File
 
 PVE VDI Client **REQUIRES** a configuration file to function. The client searches for this file in the following locations unless overridden with [command line options](#command-line-usage):
