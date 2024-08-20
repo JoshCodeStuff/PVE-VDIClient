@@ -844,7 +844,6 @@ def showvms():
 			eventparams = event.split('|')
 			vmid = eventparams[1][:-1]
 			found = False
-			os.system('systemctl reboot -i')
 			for vm in vms:
 				if str(vm['vmid']) == vmid:
 					found = True
